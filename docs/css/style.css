@@ -175,7 +175,8 @@
   text-align: center;
 }
 .catalog__tab:active {
-  background-color: rgb(0, 0, 190);
+  color: white;
+  background-color: rgba(95, 95, 255, 0.863);
 }
 .catalog__tab:hover {
   -webkit-box-shadow: 5px 5px 20px -10px black;
@@ -188,6 +189,10 @@
   top: 30px;
   left: -5px;
   width: 200px;
+}
+.catalog__tab img:active {
+  -webkit-filter: drop-shadow(0px 2px 30px rgb(255, 255, 255));
+          filter: drop-shadow(0px 2px 30px rgb(255, 255, 255));
 }
 .catalog__content {
   display: none;
