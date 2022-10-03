@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LNTU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header__main_text">Їдальня майбутнього</div>
+        <a href="https://lntu.edu.ua/uk" target="_blank" class="header__logo">
+            <img src="../src/img_menu/logo-lntu-svg2.svg" alt="logo">
+        </a>
+        <div class="header__location">
+            <span>Локація</span><br>
+            <a href="https://goo.gl/maps/zjiwUUfbMNdaN4CG7" target="_blank">
+                вулиця Львівська, 75, Луцьк
+            </a>
+        </div>
+        <div class="header__contacts">
+            <button class="button">Замовити</button>
+        </div>
+    </header>
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div><img src="img_menu/11.png" alt="1"></div>
+                <div><img src="img_menu/coffee_cake.png" alt="2"></div>
+                <div><img src="img_menu/just_coffee.png" alt="3"></div>
+              </div>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <h2 class="title">
+                Оберіть категорію
+            </h2>
+            <ul class="catalog__tabs">
+                <li class="catalog__tab">
+                    <img src="img_menu/snidanky.png" alt="">
+                    Cніданки
+                </li>
+                <li class="catalog__tab">
+                    <img src="img_menu/supy.png" alt="">
+                    Супи
+                </li>
+                <li class="catalog__tab pizza">
+                    <img src="img_menu/pizza/mini_p.png" alt="">
+                    Піци
+                </li>
+                <li class="catalog__tab">
+                    <img src="img_menu/deserts.png" alt="">
+                    Десерти
+                </li>
+                <li class="catalog__tab coffee">
+                    <img src="img_menu/coffee.png" alt="">
+                    Гарячі напої
+                </li>
+                <li class="catalog__tab">
+                    <img src="img_menu/cold_drinks.png" alt="">
+                    Холодні напої
+                </li>
+            </ul>
+            <div class="catalog__content catalog__content_active">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/other/spagetti.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Спагетті з сиром та помідорами»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>200</span> гр.</li>
+                            <li>Калорійність: <span>314</span> ккал.</li>
+                            <li>Білки: <span>12</span> гр.</li>
+                            <li>Вуглеводи: <span>60</span> гр.</li>
+                            <li>Жири: <span>2</span> гр.</li>
+                            <li>Волокна: <span>4</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            35 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/other/mashed_potato.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Картопляне пюре з м'ясом»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>200</span> гр.</li>
+                            <li>Калорійність: <span>300</span> ккал.</li>
+                            <li>Білки: <span>20</span> гр.</li>
+                            <li>Вуглеводи: <span>70</span> гр.</li>
+                            <li>Жири: <span>20</span> гр.</li>
+                            <li>Волокна: <span>7</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            30 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/soup/potato-soup-2152254_960_720.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Суп з картоплею»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>150</span> гр.</li>
+                            <li>Калорійність: <span>88</span> ккал.</li>
+                            <li>Білки: <span>11</span> гр.</li>
+                            <li>Вуглеводи: <span>9</span> гр.</li>
+                            <li>Жири: <span>2</span> гр.</li>
+                            <li>Волокна: <span>0.3</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            20 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/soup/pumpkin-soup-1685574__340.webp" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Сирний суп»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>150</span> гр.</li>
+                            <li>Калорійність: <span>72</span> ккал.</li>
+                            <li>Білки: <span>4</span> гр.</li>
+                            <li>Вуглеводи: <span>4</span> гр.</li>
+                            <li>Жири: <span>5</span> гр.</li>
+                            <li>Волокна: <span>0.5</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            30 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/soup/soup_one.webp" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Суп з фрикадельками»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>150</span> гр.</li>
+                            <li>Калорійність: <span>74</span> ккал.</li>
+                            <li>Білки: <span>4</span> гр.</li>
+                            <li>Вуглеводи: <span>6</span> гр.</li>
+                            <li>Жири: <span>5</span> гр.</li>
+                            <li>Волокна: <span>0.4</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            25 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/soup/soup_tomato.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Томатний суп»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>150</span> гр.</li>
+                            <li>Калорійність: <span>85</span> ккал.</li>
+                            <li>Білки: <span>10</span> гр.</li>
+                            <li>Вуглеводи: <span>7</span> гр.</li>
+                            <li>Жири: <span>4</span> гр.</li>
+                            <li>Волокна: <span>0</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            30 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/soup/borsch.webp" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Червоний борщ»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>150</span> гр.</li>
+                            <li>Калорійність: <span>54</span> ккал.</li>
+                            <li>Білки: <span>2</span> гр.</li>
+                            <li>Вуглеводи: <span>11</span> гр.</li>
+                            <li>Жири: <span>2</span> гр.</li>
+                            <li>Волокна: <span>0.8</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            25 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/pizza/mini_pizza_one.webp" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Піца Італіана»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>300</span> гр.</li>
+                            <li>Калорійність: <span>700</span> ккал.</li>
+                            <li>Білки: <span>20</span> гр.</li>
+                            <li>Вуглеводи: <span>37</span> гр.</li>
+                            <li>Жири: <span>12</span> гр.</li>
+                            <li>Волокна: <span>4</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            70 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/pizza/mini_pizza_two.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Піца Маргарита»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>150</span> гр.</li>
+                            <li>Калорійність: <span>375</span> ккал.</li>
+                            <li>Білки: <span>15</span> гр.</li>
+                            <li>Вуглеводи: <span>55</span> гр.</li>
+                            <li>Жири: <span>11</span> гр.</li>
+                            <li>Волокна: <span>4</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            45 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/pizza/mini_pizza_three.webp" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Піца Маргарита Черрі»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>150</span> гр.</li>
+                            <li>Калорійність: <span>390</span> ккал.</li>
+                            <li>Білки: <span>15</span> гр.</li>
+                            <li>Вуглеводи: <span>60</span> гр.</li>
+                            <li>Жири: <span>11</span> гр.</li>
+                            <li>Волокна: <span>4</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            45 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/pizza/pizza_1st.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Піца Мексиканська Міні»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>90</span> гр.</li>
+                            <li>Калорійність: <span>322</span> ккал.</li>
+                            <li>Білки: <span>15</span> гр.</li>
+                            <li>Вуглеводи: <span>40</span> гр.</li>
+                            <li>Жири: <span>7</span> гр.</li>
+                            <li>Волокна: <span>3</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            20 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/pizza/pizza_oi.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Піца Мексиканська»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>350</span> гр.</li>
+                            <li>Калорійність: <span>750</span> ккал.</li>
+                            <li>Білки: <span>20</span> гр.</li>
+                            <li>Вуглеводи: <span>42</span> гр.</li>
+                            <li>Жири: <span>12</span> гр.</li>
+                            <li>Волокна: <span>5</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            70 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/pizza/pizza_party.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Піца Маргарита з зеленю»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>450</span> гр.</li>
+                            <li>Калорійність: <span>1125</span> ккал.</li>
+                            <li>Білки: <span>45</span> гр.</li>
+                            <li>Вуглеводи: <span>155</span> гр.</li>
+                            <li>Жири: <span>33</span> гр.</li>
+                            <li>Волокна: <span>4</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            80 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/pizza/plate-2802332_960_720.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Піца Цезар» </div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>300</span> гр.</li>
+                            <li>Калорійність: <span>720</span> ккал.</li>
+                            <li>Білки: <span>30</span> гр.</li>
+                            <li>Вуглеводи: <span>14</span> гр.</li>
+                            <li>Жири: <span>42</span> гр.</li>
+                            <li>Волокна: <span>4</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            80 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cake/cake_chocolade.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Тірамісу»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>50</span> гр.</li>
+                            <li>Калорійність: <span>207</span> ккал.</li>
+                            <li>Білки: <span>3</span> гр.</li>
+                            <li>Вуглеводи: <span>38</span> гр.</li>
+                            <li>Жири: <span>25</span> гр.</li>
+                            <li>Волокна: <span>2</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            20 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cake/cake_choko_lite.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Тортик Шоколдний простий»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>50</span> гр.</li>
+                            <li>Калорійність: <span>220</span> ккал.</li>
+                            <li>Білки: <span>6</span> гр.</li>
+                            <li>Вуглеводи: <span>43</span> гр.</li>
+                            <li>Жири: <span>26</span> гр.</li>
+                            <li>Волокна: <span>2</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            20 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cake/cake_cream.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Тортик з заварним кремом»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>50</span> гр.</li>
+                            <li>Калорійність: <span>231</span> ккал.</li>
+                            <li>Білки: <span>7</span> гр.</li>
+                            <li>Вуглеводи: <span>45</span> гр.</li>
+                            <li>Жири: <span>30</span> гр.</li>
+                            <li>Волокна: <span>2</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            20 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cake/cake_honey.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Тортик Медовий»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>50</span> гр.</li>
+                            <li>Калорійність: <span>212</span> ккал.</li>
+                            <li>Білки: <span>5</span> гр.</li>
+                            <li>Вуглеводи: <span>42</span> гр.</li>
+                            <li>Жири: <span>24</span> гр.</li>
+                            <li>Волокна: <span>2</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            20 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cake/cake_nuts.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Тортик Горіховий»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>50</span> гр.</li>
+                            <li>Калорійність: <span>235</span> ккал.</li>
+                            <li>Білки: <span>10</span> гр.</li>
+                            <li>Вуглеводи: <span>44</span> гр.</li>
+                            <li>Жири: <span>29</span> гр.</li>
+                            <li>Волокна: <span>2</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            20 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cake/cake_lite.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Тортик Полегшений»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>50</span> гр.</li>
+                            <li>Калорійність: <span>197</span> ккал.</li>
+                            <li>Білки: <span>4</span> гр.</li>
+                            <li>Вуглеводи: <span>40</span> гр.</li>
+                            <li>Жири: <span>24</span> гр.</li>
+                            <li>Волокна: <span>2</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            15 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/coffee/americano.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Кава звичайна» </div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>100</span> мл.</li>
+                            <li>Калорійність: <span>2</span> ккал.</li>
+                            <li>1 чайна ложка цукру: <span>25</span> ккал.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            15 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/coffee/espresso.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Espresso» </div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>100</span> мл.</li>
+                            <li>Калорійність: <span>2</span> ккал.</li>
+                            <li>1 чайна ложка цукру: <span>25</span> ккал.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            15 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/coffee/latte.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Latte»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>100</span> мл.</li>
+                            <li>Білки: <span>1</span> гр.</li>
+                            <li>Жири: <span>3</span> гр.</li>
+                            <li>Калорійність: <span>2</span> ккал.</li>
+                            <li>1 чайна ложка цукру: <span>25</span> ккал.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            15 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/coffee/black_tea.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Чорний чай» </div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>100</span> мл.</li>
+                            <li>Калорійність: <span>2</span> ккал.</li>
+                            <li>1 чайна ложка цукру: <span>25</span> ккал.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            15 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/coffee/green_tea.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Зелений чай»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>100</span> мл.</li>
+                            <li>Калорійність: <span>2</span> ккал.</li>
+                            <li>1 чайна ложка цукру: <span>25</span> ккал.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            15 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/coffee/red_tea.jpg" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">«Червоний чай»</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вага: <span>100</span> мл.</li>
+                            <li>Калорійність: <span>2</span> ккал.</li>
+                            <li>1 чайна ложка цукру: <span>25</span> ккал.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            15 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cold_drinks/pepsi.png" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Pepsi 0.3л</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Калорійність: <span>80</span> ккал.</li>
+                            <li>Білки: <span>0</span> гр.</li>
+                            <li>Вуглеводи: <span>21</span> гр.</li>
+                            <li>Жири: <span>0</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            15 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cold_drinks/coca.png" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Coca-cola 0.3л</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Калорійність: <span>80</span> ккал.</li>
+                            <li>Білки: <span>0</span> гр.</li>
+                            <li>Вуглеводи: <span>21</span> гр.</li>
+                            <li>Жири: <span>0</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            15 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cold_drinks/7up.png" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">7up 0.3л</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Калорійність: <span>80</span> ккал.</li>
+                            <li>Білки: <span>0</span> гр.</li>
+                            <li>Вуглеводи: <span>21</span> гр.</li>
+                            <li>Жири: <span>0</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            14 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cold_drinks/sprite.png" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Sprite 0.3л</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Калорійність: <span>80</span> ккал.</li>
+                            <li>Білки: <span>0</span> гр.</li>
+                            <li>Вуглеводи: <span>21</span> гр.</li>
+                            <li>Жири: <span>0</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            14 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cold_drinks/mirinda.png" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Mirinda 0.3л</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Калорійність: <span>80</span> ккал.</li>
+                            <li>Білки: <span>0</span> гр.</li>
+                            <li>Вуглеводи: <span>21</span> гр.</li>
+                            <li>Жири: <span>0</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            14 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cold_drinks/fanta.png" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Fanta 0.3л</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Калорійність: <span>80</span> ккал.</li>
+                            <li>Білки: <span>0</span> гр.</li>
+                            <li>Вуглеводи: <span>21</span> гр.</li>
+                            <li>Жири: <span>0</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            15 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cold_drinks/lipton_g.png" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Lipton green-tea 0.3л</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Калорійність: <span>80</span> ккал.</li>
+                            <li>Білки: <span>0</span> гр.</li>
+                            <li>Вуглеводи: <span>21</span> гр.</li>
+                            <li>Жири: <span>0</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            17 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cold_drinks/lipton_b.png" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Lipton peach 0.3л</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Калорійність: <span>80</span> ккал.</li>
+                            <li>Білки: <span>0</span> гр.</li>
+                            <li>Вуглеводи: <span>21</span> гр.</li>
+                            <li>Жири: <span>0</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            17 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="img_menu/cold_drinks/karpatska.png" alt="potato" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Карпатська джерельна 0.5л</div>
+                            <a href="#" class="catalog-item__link">Детальніше</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Калорійність: <span>0</span> ккал.</li>
+                            <li>Білки: <span>0</span> гр.</li>
+                            <li>Вуглеводи: <span>0</span> гр.</li>
+                            <li>Жири: <span>0</span> гр.</li>
+                            <a href="#" class="catalog-item__back">Назад</a>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__price">
+                            10 грн.
+                        </div>
+                        <button class="catalog-item__btn button">Мені!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="under">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2123.787082598117!2d25.295403049185637!3d50.72693837422962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4725999f70f99817%3A0x24b3061df232a04f!2z0JvRg9GG0YzQutC40Lkg0L3QsNGG0ZbQvtC90LDQu9GM0L3QuNC5INGC0LXRhdC90ZbRh9C90LjQuSDRg9C90ZbQstC10YDRgdC40YLQtdGC!5e0!3m2!1suk!2sua!4v1664795548286!5m2!1suk!2sua" width="100%" height="630" style="border-top: 2px solid rgb(47, 0, 255);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="under__info">
+            <address class="under__addr">
+                вулиця Львівська, 75, Луцьк
+            </address>
+            <a class="under__phone" href="tel:380974097686">+38 097 40 97 686</a>
+            <div class="under__social">
+                <a href="https://www.facebook.com/LutskNationalTechnicalUniversity" target="_blank" class="under__social-item">
+                    <img src="icons/facebook.svg" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/lntu_lutsk/?theme=dark" target="_blank" class="under__social-item">
+                    <img src="icons/instagram.svg" alt="instagram">
+                </a>
+                <a href="https://www.youtube.com/channel/UCifkWNKnI2mIAXv7yIedGaw/featured" target="_blank" class="under__social-item">
+                    <img src="icons/youtube.svg" alt="youtube">
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__info">
+            © Всі права на статті, ілюстрації і інші матеріали належать Луцькому національному технічному університету і охороняються законом.
+            <br>
+            Відтворення в будь-якій формі вцілому чи частково будь-яких статтів, ілюстрацій, рекламних чи інших матеріалів без попереднього письмового дозволу ЗАБОРОНЯЄТЬСЯ.
+            <br>
+            <span>
+                ß-версія (деякі розділи та функції сайту працюють у тестовому режимі).
+            </span>
+        </div>
+    </footer>
+    
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script><script src="js/script.js"></script>
+</body>
+</html>
