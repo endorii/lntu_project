@@ -33,7 +33,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border-bottom: 1px solid rgb(0, 0, 190);
 }
 .header__main_text {
   font-size: 20px;
@@ -86,6 +85,7 @@
 }
 
 .button {
+  line-height: 16px;
   font-size: 18px;
   width: 150px;
   height: 50px;
@@ -100,6 +100,20 @@
   border: none;
   color: white;
   background-color: rgb(0, 0, 190);
+}
+.button_submit {
+  height: 50px;
+  width: 220px;
+  color: white;
+  background-color: rgb(0, 0, 190);
+  margin: 0 auto;
+  margin-top: 0px;
+}
+.button_submit:hover {
+  color: black;
+  background-color: #fff;
+  border: none;
+  border: 1px solid rgb(0, 0, 190);
 }
 
 .carousel {
@@ -447,4 +461,99 @@
 }
 .footer__info span {
   color: rgb(255, 136, 0);
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.overlay .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 500px;
+  min-height: 500px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 20px;
+}
+.overlay .modal__close {
+  cursor: pointer;
+  position: absolute;
+  right: -55px;
+  line-height: 50px;
+  font-size: 60px;
+  color: white;
+}
+.overlay .modal__subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+.overlay .modal__descr {
+  font-weight: 600;
+  padding: 0 40px;
+  margin-top: 5px;
+  text-align: center;
+}
+.overlay .modal-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.overlay .modal-form label {
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.overlay .modal-form input {
+  border-radius: 10px;
+  border: none;
+  border-right: 3px solid grey;
+  border-bottom: 3px solid grey;
+  margin: 0 auto;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  width: 350px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+.overlay .modal-form input:first-child {
+  margin-top: 30px;
+}
+.overlay .modal_mini {
+  min-height: 120px;
+}
+.overlay .modal_consultation {
+  min-height: 350px;
+}
+.overlay .modal__item_descr {
+  font-weight: 600;
+  padding: 0 40px;
+  margin-top: 5px;
+  text-align: center;
+}
+.overlay .modal__item {
+  color: rgb(0, 0, 190);
+  font-weight: 800;
+  padding: 0 40px;
+  margin-top: 5px;
+  text-align: center;
+}
+.overlay #consultation, .overlay #order, .overlay #thanks {
+  display: none;
 }

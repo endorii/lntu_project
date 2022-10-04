@@ -1,0 +1,90 @@
+.overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.75);
+    .modal{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        min-height: 500px;
+        background-color: rgb(238, 238, 238);
+        border-radius: 20px;
+        &__close{
+            cursor: pointer;
+            position: absolute;
+            right: -55px;
+            line-height: 50px;
+            font-size: 60px;
+            color: white;
+        }
+        &__subtitle{
+            font-weight: 600;
+            font-size: 20px;
+            padding: 0 20px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        &__descr{
+            font-weight: 600;
+            padding: 0 40px;
+            margin-top: 5px;
+            text-align: center;
+        }
+        &-form{
+            display: flex;
+            flex-direction: column;
+            label{
+                text-align: center;
+                margin-bottom: 5px;
+                font-weight: 600;
+            }
+            input{
+                border-radius: 10px;
+                border: none;
+                border-right: 3px solid grey;
+                border-bottom: 3px solid grey;
+                margin: 0 auto;
+                color: black;
+                font-size: 16px;
+                font-weight: 600;
+                width: 350px;
+                height: 50px;
+                margin-bottom: 20px;
+                padding: 0 15px;
+                &:first-child{
+                    margin-top: 30px;
+                }
+            }
+        }
+        &_mini{
+            min-height: 120px;
+        }
+        &_consultation{
+            min-height: 350px;
+        }
+        &__item_descr{
+            font-weight: 600;
+            padding: 0 40px;
+            margin-top: 5px;
+            text-align: center;
+        }
+        &__item{
+            color: $main-color;
+            font-weight: 800;
+            padding: 0 40px;
+            margin-top: 5px;
+            text-align: center;
+        }
+    }
+    
+    #consultation, #order, #thanks{
+        display: none;
+    }
+    
+}

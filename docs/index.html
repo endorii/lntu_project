@@ -26,7 +26,7 @@
             </a>
         </div>
         <div class="header__contacts">
-            <button class="button">Замовити</button>
+            <button data-modal="consultation" class="button">Задати запитання</button>
         </div>
     </header>
     <section class="carousel">
@@ -925,7 +925,7 @@
         </div>
     </section>
     <section class="under">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2123.787082598117!2d25.295403049185637!3d50.72693837422962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4725999f70f99817%3A0x24b3061df232a04f!2z0JvRg9GG0YzQutC40Lkg0L3QsNGG0ZbQvtC90LDQu9GM0L3QuNC5INGC0LXRhdC90ZbRh9C90LjQuSDRg9C90ZbQstC10YDRgdC40YLQtdGC!5e0!3m2!1suk!2sua!4v1664795548286!5m2!1suk!2sua" width="100%" height="630" style="border-top: 2px solid rgb(47, 0, 255);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2123.787082598117!2d25.295403049185637!3d50.72693837422962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4725999f70f99817%3A0x24b3061df232a04f!2z0JvRg9GG0YzQutC40Lkg0L3QsNGG0ZbQvtC90LDQu9GM0L3QuNC5INGC0LXRhdC90ZbRh9C90LjQuSDRg9C90ZbQstC10YDRgdC40YLQtdGC!5e0!3m2!1suk!2sua!4v1664795548286!5m2!1suk!2sua" width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="under__info">
             <address class="under__addr">
                 вулиця Львівська, 75, Луцьк
@@ -956,6 +956,44 @@
         </div>
     </footer>
     
+    <div class="overlay">
+        <div class="modal" id="order">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Просто заповніть заявку</div>
+            <div class="modal__descr">А ми вам зателефонуємо!</div>
+            <div class="modal__item_descr">Ви замовили:</div>
+            <div class="modal__item"></div>
+            <form action="#" method="POST" class="modal-form">
+                <input required name="name" type="text" placeholder="Введіть ваше ім'я">
+                <input required name="phone" type="phone" placeholder="Введіть ваш номер телефону">
+                <label for="time">Виберіть час свого візиту</label>
+                <input required name="time" type="time" min="08:30" max="18:00">
+                
+
+                <button class="button button_submit">Замовити смаколик!</button>
+            </form>
+        </div>
+
+        <div class="modal modal_consultation" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Хочете задати запитання?</div>
+            <div class="modal__descr">Зоповніть форму і ми вам зателефонуємо!</div>
+            <form action="#" method="POST" class="modal-form">
+                <input required name="name" type="text" placeholder="Введіть ваше ім'я">
+                <input required name="phone" type="phone" placeholder="Введіть ваш номер телефону">
+
+                <button class="button button_submit">Відправити!</button>
+            </form>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Дякую за замовлення!</div>
+            <div class="modal__descr">Очікуйте нашого дзвінка :)</div>
+            </form>
+        </div>
+    </div>
+
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script><script src="js/script.js"></script>

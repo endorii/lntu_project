@@ -1,4 +1,5 @@
 .button{
+    line-height: 16px;
     font-size: 18px;
     width: 150px;
     height: 50px;
@@ -11,6 +12,20 @@
         border: none;
         color: white;
         background-color: $main-color;
-        
     }
+    &_submit{
+        height: 50px;
+        width: 220px; 
+        color: white;
+        background-color: $main-color;
+        margin: 0 auto;
+        margin-top: 0px;
+        &:hover{
+            color: black;
+            background-color: #fff;
+            border: none;
+            border: 1px solid $main-color;
+        }
+    }
+    
 }
