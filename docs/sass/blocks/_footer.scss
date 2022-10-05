@@ -1,9 +1,10 @@
 .footer{
     padding: 20px;
-    height: 170px;
+    min-height: 170px;
     background-color: rgb(36, 36, 36);
     &__info{
-        line-height: 40px;
+        font-size: 14px;
+        line-height: 30px;
         text-align: center;
         color: rgb(201, 201, 201);
         font-weight: 500;
