@@ -1,5 +1,4 @@
 .catalog{
-    
     padding: 30px 10px 100px 10px;
     &__tabs{
         display: flex;
@@ -35,7 +34,6 @@
             left: -5px;
             width: 200px;
             &:active{
-                
                 filter: drop-shadow(0px 2px 30px rgb(255, 255, 255));
             }
        }
@@ -69,7 +67,6 @@
             border-top-left-radius: 20px;
             width: 99%;
             height: auto;
-
         }
         &__subtitle{
             font-weight: 600;
