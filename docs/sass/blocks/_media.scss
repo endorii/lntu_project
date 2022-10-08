@@ -110,6 +110,27 @@
             height: auto;
         }
     }
+    .overlay .modal-form{
+        input{
+            width: 200px;
+        }
+    }
+    .overlay .modal__close {
+        right: 10px;
+        color: $main-color;
+    }
+    .overlay .modal_consultation {
+        width: 400px;
+        min-height: 390px;
+    }
+    .overlay #order {
+        width: 400px;
+        min-height: 540px;
+    }
+    .overlay .modal_mini {
+        width: 400px;
+        min-height: 390px;
+    }
 }
 @media (max-width: 375px){
     .carousel{
@@ -203,6 +224,27 @@
             height: auto;
         }
     }
+    .overlay .modal-form{
+        input{
+            width: 200px;
+        }
+    }
+    .overlay .modal__close {
+        right: 10px;
+        color: $main-color;
+    }
+    .overlay .modal_consultation {
+        width: 300px;
+        min-height: 390px;
+    }
+    .overlay #order {
+        width: 300px;
+        min-height: 540px;
+    }
+    .overlay .modal_mini {
+        width: 300px;
+        min-height: 390px;
+    }
 }
 @media (max-width: 320px){
     .header{
@@ -281,4 +323,27 @@
         width: 100%;
         padding: 5px;
     }
+    
+    .overlay .modal-form{
+        input{
+            width: 200px;
+        }
+    }
+    .overlay .modal__close {
+        right: 10px;
+        color: $main-color;
+    }
+    .overlay .modal_consultation {
+        width: 300px;
+        min-height: 390px;
+    }
+    .overlay #order {
+        width: 300px;
+        min-height: 540px;
+    }
+    .overlay .modal_mini {
+        width: 300px;
+        min-height: 390px;
+    }
+    
 }
