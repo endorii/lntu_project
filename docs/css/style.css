@@ -585,7 +585,7 @@
     display: none;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .carousel {
     display: none;
   }
@@ -595,7 +595,7 @@
             justify-content: center;
     padding: 0;
     margin: 0;
-    width: 360px;
+    width: 425px;
   }
   .header img {
     margin-left: 15px;
@@ -624,7 +624,75 @@
             justify-content: center;
   }
   .under__info {
-    width: 300px;
+    width: 400px;
+  }
+  .under__phone {
+    margin-bottom: 0px;
+  }
+  .under__social a {
+    padding-top: 0px;
+  }
+  .catalog-item__list li {
+    margin-bottom: 25px;
+    margin-left: 8px;
+  }
+  .catalog-item__footer {
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .catalog-item__price {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .catalog-item__btn {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .catalog-item__content img {
+    width: 99%;
+    height: auto;
+  }
+}
+@media (max-width: 375px) {
+  .carousel {
+    display: none;
+  }
+  .header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 375px;
+  }
+  .header img {
+    margin-left: 15px;
+    width: 150px;
+  }
+  .header__main_text {
+    display: none;
+  }
+  .header__location span {
+    display: none;
+  }
+  .header__location a {
+    display: none;
+  }
+  .header .button {
+    height: 50px;
+    width: 150px;
+    font-size: 14px;
+  }
+  .title {
+    text-align: center;
+  }
+  .catalog__tabs {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .under__info {
+    width: 350px;
   }
   .under__phone {
     margin-bottom: 0px;
@@ -655,12 +723,11 @@
 }
 @media (max-width: 320px) {
   .header {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding: 0;
     margin: 0;
-    width: 280px;
+    width: 320px;
   }
   .header img {
     margin-left: 15px;
@@ -669,10 +736,7 @@
   .header__main_text {
     display: none;
   }
-  .header__location span {
-    display: none;
-  }
-  .header__location a {
+  .header__location {
     display: none;
   }
   .header .button {

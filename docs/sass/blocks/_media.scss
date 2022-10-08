@@ -23,7 +23,7 @@
         display: none;
     }
 }
-@media (max-width: 375px){
+@media (max-width: 425px){
     .carousel{
         display: none;
     }
@@ -31,7 +31,7 @@
         justify-content: center;
         padding: 0;
         margin: 0;
-        width: 360px;
+        width: 425px;
         img{
             margin-left: 15px;
             width: 150px;
@@ -60,7 +60,78 @@
         justify-content: center;
     }
     .under__info{
-        width: 300px;
+        width: 400px;
+    }
+    .under__phone{
+        margin-bottom: 0px;
+    }
+    .under__social{
+        a{
+            padding-top: 0px;
+        }
+    }
+    .catalog-item__list li{
+        margin-bottom: 25px;
+        margin-left: 8px;
+        
+    }
+    .catalog-item__footer{
+        margin-top: 0px;
+        padding: 10px;
+    }
+    .catalog-item__price{
+        padding: 5px;
+        font-size: 16px;
+    }
+    .catalog-item__btn{
+        padding: 5px;
+        font-size: 16px;
+    }
+    .catalog-item__content{
+        img{
+            width: 99%;
+            height: auto;
+        }
+    }
+}
+@media (max-width: 375px){
+    .carousel{
+        display: none;
+    }
+    .header{
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        width: 375px;
+        img{
+            margin-left: 15px;
+            width: 150px;
+        }
+        &__main_text{
+            display: none;
+        }
+        &__location{
+            span{
+                display: none;
+            }
+            a{
+                display: none;
+            }
+        }
+        .button{
+            height: 50px;
+            width: 150px;
+            font-size: 14px;
+        }
+    }  
+    .title{
+        text-align: center;
+    }
+    .catalog__tabs{
+        justify-content: center;
+    }
+    .under__info{
+        width: 350px;
     }
     .under__phone{
         margin-bottom: 0px;
@@ -96,10 +167,10 @@
 }
 @media (max-width: 320px){
     .header{
-        justify-content: center;
+        justify-content: space-around;
         padding: 0;
         margin: 0;
-        width: 280px;
+        width: 320px;
         img{
             margin-left: 15px;
             width: 150px;
@@ -108,12 +179,7 @@
             display: none;
         }
         &__location{
-            span{
-                display: none;
-            }
-            a{
-                display: none;
-            }
+            display: none;
         }
         .button{
             height: 50px;
