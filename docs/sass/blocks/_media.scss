@@ -40,17 +40,15 @@
             display: none;
         }
         &__location{
-            span{
-                display: none;
-            }
-            a{
-                display: none;
-            }
+            display: none;
         }
         .button{
             height: 50px;
             width: 150px;
             font-size: 14px;
+        }
+        a{
+            width: 220px;
         }
     }  
     .title{

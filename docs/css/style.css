@@ -604,16 +604,16 @@
   .header__main_text {
     display: none;
   }
-  .header__location span {
-    display: none;
-  }
-  .header__location a {
+  .header__location {
     display: none;
   }
   .header .button {
     height: 50px;
     width: 150px;
     font-size: 14px;
+  }
+  .header a {
+    width: 220px;
   }
   .title {
     text-align: center;
