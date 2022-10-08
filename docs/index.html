@@ -963,14 +963,14 @@
             <div class="modal__descr">А ми вам зателефонуємо!</div>
             <div class="modal__item_descr">Ви замовили:</div>
             <div class="modal__item"></div>
-            <form action="#" method="POST" class="modal-form">
+            <form action="mail.php" method="post" class="modal-form">
                 <input required name="name" type="text" placeholder="Введіть ваше ім'я">
                 <input required name="phone" type="phone" placeholder="Введіть ваш номер телефону">
                 <label for="time">Виберіть час свого візиту</label>
                 <input required name="time" type="time" min="08:30" max="18:00">
                 
 
-                <button class="button button_submit">Замовити смаколик!</button>
+                <button type="submit" class="button button_submit">Замовити смаколик!</button>
             </form>
         </div>
 
@@ -978,11 +978,11 @@
             <div class="modal__close">&times;</div>
             <div class="modal__subtitle">Хочете задати запитання?</div>
             <div class="modal__descr">Зоповніть форму і ми вам зателефонуємо!</div>
-            <form action="#" method="POST" class="modal-form">
+            <form action="mail.php" method="post" class="modal-form">
                 <input required name="name" type="text" placeholder="Введіть ваше ім'я">
                 <input required name="phone" type="phone" placeholder="Введіть ваш номер телефону">
 
-                <button class="button button_submit">Відправити!</button>
+                <button type="submit" class="button button_submit">Відправити!</button>
             </form>
         </div>
 
@@ -990,7 +990,6 @@
             <div class="modal__close">&times;</div>
             <div class="modal__subtitle">Дякую за замовлення!</div>
             <div class="modal__descr">Очікуйте нашого дзвінка :)</div>
-            </form>
         </div>
     </div>
 

@@ -6,6 +6,8 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 4000,
         adaptiveHeight: true,
+        adaptiveWidth: true,
+        variableWidth: true,
         prevArrow: '<button type="button" class="slick-prev"><img src="img_menu/arror_left.png"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="img_menu/arror_right.png"></button>'
       });
@@ -45,4 +47,20 @@ $(document).ready(function(){
           $('.overlay, #order').fadeIn('slow');
         });
       });
+
+      $('form').submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: "POST",
+            url: "phpmailer/mail.php",
+            data: $(this).serialize()
+        }).done(function() {
+            $(this).find("input").val("");
+            $('#consultation, #order').fadeOut();
+            $('.overlay, #thanks').fadeIn('slow');
+
+            $('form').trigger('reset');
+        });
+        return false;
+    });
 });
