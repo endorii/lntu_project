@@ -87,21 +87,49 @@
             padding-top: 0px;
         }
     }
+    .catalog-item{
+        min-height: 200px;
+        width: 190px;
+    }
+    .catalog__content{
+        justify-content: center;
+        gap: 0px 15px;
+        padding: 5px;
+    }
+    .catalog-item__back{
+        font-size: 12px;
+    }
     .catalog-item__list li{
-        margin-bottom: 25px;
-        margin-left: 8px;
-        
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 11px;
+    }
+    .catalog-item__list{
+        margin-bottom: 0px;
+    }
+    .catalog-item__subtitle{
+        padding: 3px 10px;
+        font-size: 15px;
+    }
+    .catalog-item__link{
+        font-size: 15px;
+        padding: 0 25%;
     }
     .catalog-item__footer{
         margin-top: 0px;
         padding: 10px;
+        justify-content: center;
+        align-items: center;
     }
     .catalog-item__price{
         padding: 5px;
-        font-size: 16px;
+        font-size: 15px;
     }
     .catalog-item__btn{
         padding: 5px;
+        width: 80px;
+        height: 40px;
         font-size: 16px;
     }
     .catalog-item__content{
@@ -171,6 +199,9 @@
     .catalog{
         width: 100%;
     }
+    .catalog-item__link{
+        padding: 0 30%;
+    }
     .catalog__tab{
         justify-content: center;
         align-items: center;
@@ -201,22 +232,50 @@
             padding-top: 0px;
         }
     }
+    .catalog-item{
+        min-height: 200px;
+        width: 160px;
+    }
+    .catalog__content{
+        justify-content: center;
+        gap: 0px 15px;
+        padding: 5px;
+    }
+    .catalog-item__back{
+        font-size: 12px;
+    }
     .catalog-item__list li{
-        margin-bottom: 25px;
-        margin-left: 8px;
-        
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 11px;
+    }
+    .catalog-item__list{
+        margin-bottom: 0px;
+    }
+    .catalog-item__subtitle{
+        padding: 0px 8px;
+        font-size: 13px;
+    }
+    .catalog-item__link{
+        font-size: 12px;
+        padding: 0 25%;
     }
     .catalog-item__footer{
         margin-top: 0px;
         padding: 10px;
+        justify-content: center;
+        align-items: center;
     }
     .catalog-item__price{
         padding: 5px;
-        font-size: 16px;
+        font-size: 13px;
     }
     .catalog-item__btn{
         padding: 5px;
-        font-size: 16px;
+        width: 60px;
+        height: 40px;
+        font-size: 14px;
     }
     .catalog-item__content{
         img{
@@ -279,22 +338,50 @@
             padding-top: 0px;
         }
     }
+    .catalog-item{
+        min-height: 200px;
+        width: 120px;
+    }
+    .catalog__content{
+        justify-content: center;
+        gap: 0px 15px;
+        padding: 5px;
+    }
+    .catalog-item__back{
+        font-size: 12px;
+    }
     .catalog-item__list li{
-        margin-bottom: 25px;
-        margin-left: 8px;
-        
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 11px;
+    }
+    .catalog-item__list{
+        margin-bottom: 0px;
+    }
+    .catalog-item__subtitle{
+        padding: 0px 8px;
+        font-size: 13px;
+    }
+    .catalog-item__link{
+        font-size: 12px;
+        padding: 0 25%;
     }
     .catalog-item__footer{
         margin-top: 0px;
         padding: 10px;
+        justify-content: center;
+        align-items: center;
     }
     .catalog-item__price{
         padding: 5px;
-        font-size: 16px;
+        font-size: 13px;
     }
     .catalog-item__btn{
         padding: 5px;
-        font-size: 16px;
+        width: 60px;
+        height: 40px;
+        font-size: 14px;
     }
     .catalog-item__content{
         img{
@@ -304,6 +391,9 @@
     }
     .catalog{
         width: 100%;
+        &__content{
+            
+        }
     }
     .catalog__tab{
         justify-content: center;
@@ -319,7 +409,7 @@
     
     .catalog__tabs{
         flex-direction: row;
-        justify-content: left;
+        justify-content: center;
         width: 100%;
         padding: 5px;
     }
