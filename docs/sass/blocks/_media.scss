@@ -59,6 +59,10 @@
     .title{
         text-align: center;
     }
+    .title__menu{
+        margin-top: 20px;
+        text-align: center;
+    }
     .catalog{
         width: 100%;
     }
@@ -204,6 +208,9 @@
     .title{
         text-align: center;
     }
+    .title__menu{
+        text-align: center;
+    }
     .catalog{
         width: 100%;
     }
@@ -347,6 +354,9 @@
         }
     }  
     .title{
+        text-align: center;
+    }
+    .title__menu{
         text-align: center;
     }
     .catalog{
@@ -496,6 +506,9 @@
     }
     .catalog{
         width: 100%;
+    }
+    .title__menu{
+        text-align: center;
     }
     .catalog-item__link{
         padding: 0 30%;

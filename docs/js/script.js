@@ -63,4 +63,11 @@ $(document).ready(function(){
         });
         return false;
     });
+    $(".catalog__tab").click(function() {
+      //animate html body and use jQuery scrollTop
+          $('html, body').animate({
+              scrollTop: $(".title__menu").offset().top - 100
+          });
+      });
 });
+

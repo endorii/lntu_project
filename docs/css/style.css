@@ -161,6 +161,13 @@
 .catalog {
   padding: 30px 10px 100px 10px;
 }
+.catalog .title {
+  text-align: center;
+}
+.catalog .title__menu {
+  margin-top: 100px;
+  text-align: center;
+}
 .catalog__tabs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -621,6 +628,10 @@
   .title {
     text-align: center;
   }
+  .title__menu {
+    margin-top: 20px;
+    text-align: center;
+  }
   .catalog {
     width: 100%;
   }
@@ -774,6 +785,9 @@
   .title {
     text-align: center;
   }
+  .title__menu {
+    text-align: center;
+  }
   .catalog {
     width: 100%;
   }
@@ -925,6 +939,9 @@
     width: 200px;
   }
   .title {
+    text-align: center;
+  }
+  .title__menu {
     text-align: center;
   }
   .catalog {
@@ -1082,6 +1099,9 @@
   }
   .catalog {
     width: 100%;
+  }
+  .title__menu {
+    text-align: center;
   }
   .catalog-item__link {
     padding: 0 30%;
