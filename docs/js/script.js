@@ -1,3 +1,5 @@
+//Слайдер на сайті з кастомними налаштуваннями
+
 $(document).ready(function(){
     $('.carousel__inner').slick({
         infinite: true,
@@ -32,7 +34,7 @@ $(document).ready(function(){
       toggleSlide('.catalog-item__back');
 
 
-      // Modal
+      // Модальні вікна при замовленні та задати запитання
 
       $('[data-modal=consultation]').on('click', function(){
         $('.overlay, #consultation').fadeIn('slow');
@@ -47,6 +49,8 @@ $(document).ready(function(){
           $('.overlay, #order').fadeIn('slow');
         });
       });
+
+      // Форма підтвердження замовлення ( Нажаль не працює)
 
       $('form').submit(function(e) {
         e.preventDefault();
@@ -63,8 +67,11 @@ $(document).ready(function(){
         });
         return false;
     });
+
+    // Плавний скрол вниз під час натискання на категорію продуктів
+
     $(".catalog__tab").click(function() {
-      //animate html body and use jQuery scrollTop
+      
           $('html, body').animate({
               scrollTop: $(".title__menu").offset().top - 100
           });

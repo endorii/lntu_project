@@ -1,28 +1,32 @@
+//Адаптація під мобільні пристрої до 1440px
 @media (max-width: 1440px){
     .carousel__inner{
         width: 900px;
     }
 }
+
+//Адаптація під мобільні пристрої до 1192px
 @media (max-width: 1192px){
     .carousel__inner{
         width: 950px;
     }
 }
+
+//Адаптація під мобільні пристрої до 1092px
 @media (max-width: 1092px){
     .carousel__inner{
         width: 900px;
     }
 }
-@media (max-width: 1024px){
-    .carousel{
-        max-width: 900px;
-    }
-}
+
+//Адаптація під мобільні пристрої до 1024px
 @media (max-width: 1024px){
     .carousel{
         display: none;
     }
 }
+
+//Адаптація під мобільні пристрої до 720px
 @media (max-width: 720px){
     .carousel{
         display: none;
@@ -168,6 +172,8 @@
         min-height: 390px;
     }
 }
+
+//Адаптація під мобільні пристрої до 491px
 @media (max-width: 491px){
     .carousel{
         display: none;
@@ -313,6 +319,8 @@
         }
     }
 }
+
+//Адаптація під мобільні пристрої до 425px
 @media (max-width: 425px){
     .carousel{
         display: none;
@@ -458,6 +466,8 @@
         }
     }
 }
+
+//Адаптація під мобільні пристрої до 414px
 @media (max-width: 414px){
     .carousel{
         display: none;
@@ -602,6 +612,8 @@
         }
     }
 }
+
+//Адаптація під мобільні пристрої до 390px
 @media (max-width: 390px){
     .carousel{
         display: none;
@@ -745,6 +757,8 @@
         }
     }
 }
+
+//Адаптація під мобільні пристрої до 375px
 @media (max-width: 375px){
     .carousel{
         display: none;
@@ -892,6 +906,8 @@
         display: none;
     }
 }
+
+//Адаптація під мобільні пристрої до 360px
 @media (max-width: 360px){
     .header{
         justify-content: space-around;
@@ -1022,6 +1038,8 @@
         }
     }
 }
+
+//Адаптація під мобільні пристрої до 320px
 @media (max-width: 320px){
     hr{
         margin-top: 10px;

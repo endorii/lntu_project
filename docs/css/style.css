@@ -461,7 +461,8 @@
 .footer {
   padding: 20px;
   min-height: 170px;
-  background-color: rgb(36, 36, 36);
+  background: -webkit-gradient(linear, left top, right bottom, from(rgb(0, 71, 165)), to(rgb(11, 0, 58)));
+  background: linear-gradient(to bottom right, rgb(0, 71, 165), rgb(11, 0, 58));
 }
 .footer__info {
   font-size: 14px;
@@ -582,11 +583,6 @@
 @media (max-width: 1092px) {
   .carousel__inner {
     width: 900px;
-  }
-}
-@media (max-width: 1024px) {
-  .carousel {
-    max-width: 900px;
   }
 }
 @media (max-width: 1024px) {
