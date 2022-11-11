@@ -71,10 +71,9 @@ $(document).ready(function(){
     // Плавний скрол вниз під час натискання на категорію продуктів
 
     $(".catalog__tab").click(function() {
-      
           $('html, body').animate({
               scrollTop: $(".title__menu").offset().top - 100
-          });
+          }, 100);
       });
 });
 
